@@ -16,6 +16,7 @@ def convertir_true_pares(numero):
 # Convertir strings a numeros
 numeros_enteros = list(map(convertir_a_enteros, numeros))
 
+print(numeros_enteros)
 # Multiplicar cada numero por 9
 numeros_por_9 = list(map(multiplicar_por_9, numeros_enteros))
 
